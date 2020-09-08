@@ -35,7 +35,7 @@ class _AnalogClockState extends State<AnalogClock> {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(
-            horizontal: getProportionateScreenWidth(24.0),
+            horizontal: getProportionateScreenWidth(36.0),
           ),
           child: AspectRatio(
             aspectRatio: 1,
@@ -45,7 +45,7 @@ class _AnalogClockState extends State<AnalogClock> {
                 shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
-                    offset: Offset(0, 0),
+                    offset: Offset(0, 24.0),
                     color: MyColors.shadowColor.withOpacity(0.14),
                     blurRadius: 64,
                   )

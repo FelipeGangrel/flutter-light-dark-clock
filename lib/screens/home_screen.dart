@@ -64,11 +64,14 @@ class HomeBody extends StatelessWidget {
           ),
           DigitalClock(),
           Expanded(
-            child: Column(
-              // mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                AnalogClock(),
-              ],
+            child: Container(
+              padding: EdgeInsets.only(top: getProportionateScreenWidth(40.0)),
+              child: Column(
+                // mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  AnalogClock(),
+                ],
+              ),
             ),
           ),
         ],

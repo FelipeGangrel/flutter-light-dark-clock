@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class MyColors {
-
   // colors
   static Color primaryColor = Color(0xFFFF97B3);
   static Color secondaryLightColor = Color(0xFFE4E9F2);
@@ -31,6 +30,4 @@ class MyColors {
 
   // shadows
   static Color shadowColor = Color(0xFF364564);
-
-
 }

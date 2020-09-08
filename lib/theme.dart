@@ -21,7 +21,11 @@ ThemeData themeData(BuildContext context) {
       bodyText1: TextStyle(color: MyColors.bodyTextLightColor),
       bodyText2: TextStyle(color: MyColors.bodyTextLightColor),
       headline4: TextStyle(color: MyColors.titleTextLightColor, fontSize: 32),
-      headline1: TextStyle(color: MyColors.titleTextLightColor, fontSize: 80),
+      headline1: TextStyle(
+        color: MyColors.titleTextLightColor,
+        fontWeight: FontWeight.w300,
+        fontSize: 80,
+      ),
     ),
   );
 }
@@ -45,7 +49,11 @@ ThemeData darkThemeData(BuildContext context) {
       bodyText1: TextStyle(color: MyColors.bodyTextDarkColor),
       bodyText2: TextStyle(color: MyColors.bodyTextDarkColor),
       headline4: TextStyle(color: MyColors.titleTextDarkColor, fontSize: 32),
-      headline1: TextStyle(color: MyColors.titleTextDarkColor, fontSize: 80),
+      headline1: TextStyle(
+        color: MyColors.titleTextDarkColor,
+        fontWeight: FontWeight.w300,
+        fontSize: 80,
+      ),
     ),
   );
 }
